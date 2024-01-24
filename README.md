@@ -1,5 +1,5 @@
 #### English | [中文](./README_zh.md)
-** Not Finished **
+**Not Finished**
 
 # ComfyUI-clip-interrogator
 Unofficial ComfyUI extension of clip-interrogator

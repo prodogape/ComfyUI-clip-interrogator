@@ -1,4 +1,4 @@
-### [English](./README.md) | 中文
+#### [English](./README.md) | 中文
 
 # ComfyUI-clip-interrogator
 Unofficial ComfyUI extension of clip-interrogator
