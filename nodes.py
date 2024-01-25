@@ -29,7 +29,8 @@ class ShowText:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "prompt": ("PROMPT", {"multiline": True}),
+                "prompt": ("PROMPT"),
+                "text": ("STRING", {"multiline": True})
             },
         }
 
@@ -40,6 +41,7 @@ class ShowText:
 
     CATEGORY = "image"
 
-    def apply(self, prompt):
-        # TODO
+    def apply(self, prompt, text=""):
+        print(prompt)  # debug
+        text = prompt  #TODO
         return
