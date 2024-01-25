@@ -7,7 +7,7 @@ from clip_interrogator import Config, Interrogator
 
 
 class CI_Inference:
-    ci_model: Interrogator
+    ci_model: Interrogator = None
     model_name: str
     mode_list = ["best", "classic", "fast", "negative"]
     cache_dir: str
