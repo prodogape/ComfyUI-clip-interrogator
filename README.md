@@ -5,6 +5,7 @@
 Unofficial ComfyUI extension of clip-interrogator
 
 _Be free to open issues_
+_Highly recommended to review `README_zh.md` if you're a Chinese developer_
 
 
 ### Install
@@ -14,5 +15,6 @@ _Be free to open issues_
 - Run `python install.py`
 
 ### Usage
-
--
+![](./assets/1.png)
+![](./assets/2.png)
+![](./assets/3.png)
