@@ -11,7 +11,7 @@ class ComfyUIClipInterrogator:
             },
         }
 
-    RETURN_TYPES = ("STRING",)
+    RETURN_TYPES = ("PROMPT",)
     RETURN_NAMES = ("prompt",)
 
     FUNCTION = "apply"
@@ -29,7 +29,7 @@ class ShowText:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "prompt": ("STRING", {"multiline": True}),
+                "prompt": ("PROMPT", {"multiline": True}),
             },
         }
 
