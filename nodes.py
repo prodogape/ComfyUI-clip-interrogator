@@ -21,7 +21,7 @@ class ComfyUIClipInterrogator:
     CATEGORY = "image"
 
     def apply(self, image, mode, model_name):
-        CI_Inference().image_to_prompt(image, mode, model_name)
+        return CI_Inference().image_to_prompt(image, mode, model_name)
 
 
 class ShowText:
@@ -29,7 +29,7 @@ class ShowText:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "prompt": ("STRING", {"multiline": True}),
+                "prompt": ("PROMPT", {"multiline": True}),
             },
         }
 
