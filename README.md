@@ -8,9 +8,11 @@ _Be free to open issues_
 
 
 ### Install
-
-- todo
+- `cd` to `custom_nodes/` under the ComfyUI project folder: `cd  path/to/ComfyUI/custom_nodes`
+- git clone this repo: `git clone https://github.com/unanan/ComfyUI-clip-interrogator.git`
+- `cd` into `ComfyUI-clip-interrogator/`: `cd path/to/ComfyUI/custom_nodes/ComfyUI-clip-interrogator`
+- Run `python install.py`
 
 ### Usage
 
-
+-
