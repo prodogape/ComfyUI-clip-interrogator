@@ -29,7 +29,7 @@ class ShowText:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "prompt": ("PROMPT", {"multiline": True}),
+                "prompt": ("STRING", {"multiline": True}),
             },
         }
 
