@@ -16,9 +16,30 @@ class ComfyUIClipInterrogator:
 
     FUNCTION = "apply"
 
-    # OUTPUT_NODE = False
+    OUTPUT_NODE = False
 
     CATEGORY = "image"
 
     def apply(self, image, mode, model_name):
         CI_Inference().image_to_prompt(image, mode, model_name)
+
+
+class ShowText:
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "prompt": ("STRING", {"multiline": True}),
+            },
+        }
+
+    RETURN_TYPES = ()
+    FUNCTION = "apply"
+
+    OUTPUT_NODE = True
+
+    CATEGORY = "image"
+
+    def apply(self, prompt):
+        # TODO
+        return
