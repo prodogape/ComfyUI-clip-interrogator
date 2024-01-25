@@ -29,19 +29,18 @@ class ShowText:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "prompt": ("STRING"),
+                # "text": ("STRING", ),
                 "text": ("STRING", {"multiline": True})
             },
         }
 
-    RETURN_TYPES = ()
+    # RETURN_TYPES = ()
     FUNCTION = "apply"
 
     OUTPUT_NODE = True
 
     CATEGORY = "image"
 
-    def apply(self, prompt, text=""):
-        print(prompt)  # debug
-        text = prompt  #TODO
-        return
+    def apply(self, text):
+        print(text)  # debug
+        # return
