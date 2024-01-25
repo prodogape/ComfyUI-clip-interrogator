@@ -34,7 +34,7 @@ class ShowText:
             },
         }
 
-    # RETURN_TYPES = ()
+    RETURN_TYPES = ()
     FUNCTION = "apply"
 
     OUTPUT_NODE = True
