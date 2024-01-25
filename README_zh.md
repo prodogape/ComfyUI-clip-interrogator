@@ -3,7 +3,7 @@
 # ComfyUI-clip-interrogator
 Unofficial ComfyUI extension of clip-interrogator
 
-_作者是时长一天半的ComfyUI练习生，如果发现问题欢迎提issue_
+_作者刚玩这个，如果发现问题欢迎提issue_
 
 ### 安装
 - 到ComfyUI项目根目录下的`custom_nodes/`文件夹下：`cd path/to/ComfyUI/custom_nodes`

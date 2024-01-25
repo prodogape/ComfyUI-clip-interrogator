@@ -1,4 +1,4 @@
-from node import ComfyUIClipInterrogator
+from .node import ComfyUIClipInterrogator
 
 
 # A dictionary that contains all nodes you want to export with their names
