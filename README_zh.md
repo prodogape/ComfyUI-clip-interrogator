@@ -18,6 +18,7 @@ _作者刚玩这个，如果发现问题欢迎提issue_
 ![](./assets/1.png)
 ![](./assets/2.png)
 ![](./assets/3.png)
+![](./assets/4.png)
 
 #### Verbose: 代码结构说明（希望对一些跟我一样刚入门的想写custom_nodes的小白有一点帮助）
 - `node_mappings.py`里是到ComfyUI界面上的一些名称的映射

@@ -48,8 +48,7 @@ class CI_Inference:
         try:
             self._load_model(model_name)
             # image.convert('RGB')
-            # pil_image = Image.fromarray(image.squeeze(0).numpy())  # TODO
-            pil_image = transforms.ToPILImage()(image.squeeze(0))
+            pil_image = transforms.ToPILImage()(image.squeeze().permute(2, 0, 1))  # TODO
             prompt = self._interrogate(pil_image, mode)
         except Exception as e:
             prompt = ""

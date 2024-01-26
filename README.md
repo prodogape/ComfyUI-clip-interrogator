@@ -20,6 +20,7 @@ _Highly recommended to review `README_zh.md` if you're a Chinese developer_
 ![](./assets/1.png)
 ![](./assets/2.png)
 ![](./assets/3.png)
+![](./assets/4.png)
 
 ### TODOs
 [] share weights in A1111/stable-diffusion-webui
