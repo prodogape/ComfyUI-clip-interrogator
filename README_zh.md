@@ -6,6 +6,7 @@ Unofficial ComfyUI extension of clip-interrogator
 _作者刚玩这个，如果发现问题欢迎提issue_
 
 ### 安装
+- 先安装pythongosssss/ComfyUI-Custom-Scripts：`https://github.com/pythongosssss/ComfyUI-Custom-Scripts`
 - 到ComfyUI项目根目录下的`custom_nodes/`文件夹下：`cd path/to/ComfyUI/custom_nodes`
 - git clone本项目: `git clone https://github.com/unanan/ComfyUI-clip-interrogator.git`
 - 到`ComfyUI-clip-interrogator/`文件夹下: `cd path/to/ComfyUI/custom_nodes/ComfyUI-clip-interrogator`
