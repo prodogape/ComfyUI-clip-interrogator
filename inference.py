@@ -2,7 +2,6 @@
 import os
 import yaml
 import torch
-from torchvision import transforms
 from PIL import Image
 from clip_interrogator import Config, Interrogator
 
@@ -47,9 +46,9 @@ class CI_Inference:
     def image_to_prompt(self, image, mode, model_name):
         try:
             self._load_model(model_name)
-            print(image.shape)
             # image.convert('RGB')
-            prompt = self._interrogate(transforms.ToPILImage()(image.cpu().clone().squeeze(0)), mode)
+            pil_image = Image.fromarray(image.squeeze(0).numpy())  # TODO
+            prompt = self._interrogate(pil_image, mode)
         except Exception as e:
             prompt = ""
             print(e)
