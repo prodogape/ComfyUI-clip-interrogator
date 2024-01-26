@@ -56,7 +56,8 @@ class CI_Inference:
             print(e)
 
         return prompt
+ci = CI_Inference()
 
 
 if __name__ == '__main__':
-    print(CI_Inference().model_list)
+    print(ci.model_list)

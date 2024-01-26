@@ -1,4 +1,4 @@
-from .inference import CI_Inference
+from .inference import ci
 
 class ComfyUIClipInterrogator:
     @classmethod
@@ -6,8 +6,8 @@ class ComfyUIClipInterrogator:
         return {
             "required": {
                 "image": ("IMAGE",),
-                "mode": (CI_Inference().mode_list, ),
-                "model_name": (CI_Inference().model_list, ),
+                "mode": (ci.mode_list, ),
+                "model_name": (ci.model_list, ),
             },
         }
 
@@ -21,7 +21,7 @@ class ComfyUIClipInterrogator:
     CATEGORY = "image"
 
     def apply(self, image, mode, model_name):
-        prompt = CI_Inference().image_to_prompt(image, mode, model_name)
+        prompt = ci.image_to_prompt(image, mode, model_name)
         return (prompt, )
 
 
