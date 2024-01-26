@@ -24,6 +24,7 @@ class CI_Inference:
 
     def _load_model(self, model_name):
         if not (self.ci_model and model_name == self.ci_model.config.clip_model_name):
+            print(f"Load model: {model_name}")
             config = Config(
                 # device="cuda",
                 clip_model_path=self.cache_dir,
