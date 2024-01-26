@@ -49,7 +49,7 @@ class CI_Inference:
             self._load_model(model_name)
             print(image.shape)
             # image.convert('RGB')
-            prompt = self._interrogate(transforms.ToPILImage(image.cpu().clone().squeeze(0)), mode)
+            prompt = self._interrogate(transforms.ToPILImage()(image.cpu().clone().squeeze(0)), mode)
         except Exception as e:
             prompt = ""
             print(e)
