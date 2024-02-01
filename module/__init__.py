@@ -21,7 +21,7 @@ if needs_install:
 import yaml
 import open_clip
 model_config = {
-    "cache_dir": os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "models", "clip")
+    "cache_dir": os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "models", "clip")
 }
 model_names = {}
 open_clip_pretrained_model_list = open_clip.list_pretrained()
@@ -33,4 +33,4 @@ for open_clip_pretrained_model in open_clip_pretrained_model_list:
     }
 model_config["model_names"] = model_names
 
-yaml.dump(model_config, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "model_config.yaml"), 'w'), indent=4)
+yaml.dump(model_config, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "model_config.yaml"), 'w'), indent=4)
