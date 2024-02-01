@@ -13,8 +13,7 @@ try:
 except ImportError:
     needs_install = True
 
-if needs_install:
-    os.system(f"{sys.executable} -m pip install clip-interrogator=={CI_VERSION}")
+
 
 
 import yaml
