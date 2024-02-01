@@ -1,4 +1,4 @@
-from .inference import ci
+from .module.inference import ci
 
 class ComfyUIClipInterrogator:
     @classmethod

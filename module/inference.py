@@ -16,7 +16,7 @@ class CI_Inference:
     model_list: list
 
     def __init__(self):
-        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), f"model_config.yaml")) as fp:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), f"../model_config.yaml")) as fp:
             model_config = yaml.load(fp, Loader=yaml.FullLoader)
         self.cache_dir = model_config["cache_dir"]
         self.model_names = model_config["model_names"]
