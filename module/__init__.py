@@ -1,4 +1,5 @@
 # Reference to: https://github.com/pharmapsychotic/clip-interrogator-ext/blob/main/install.py
+import os
 
 # Install clip_interrogator
 CI_VERSION = "0.6.0"
@@ -11,7 +12,6 @@ except ImportError:
     needs_install = True
 
 if needs_install:
-    import os
     import sys
     os.system(f"{sys.executable} -m pip install clip-interrogator=={CI_VERSION}")
 
