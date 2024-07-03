@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-clip-interrogator"
+description = "ComfyUI custom nodes of clip-interrogator"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/prodogape/ComfyUI-clip-interrogator"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "prodogape"
+DisplayName = "ComfyUI-clip-interrogator"
+Icon = "https://avatars.githubusercontent.com/u/89724016?s=400&u=cd218743591faf329d4b4f07a14de1130a9f56cc&v=4"
