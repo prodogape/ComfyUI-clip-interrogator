@@ -2,7 +2,7 @@
 name = "comfyui-clip-interrogator"
 description = "ComfyUI custom nodes of clip-interrogator"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 
 [project.urls]
 Repository = "https://github.com/prodogape/ComfyUI-clip-interrogator"
